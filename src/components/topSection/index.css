@@ -1,0 +1,15 @@
+
+.topSection {
+    padding: 18px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.content {
+    padding: 8px;
+}
+@media screen and (max-width:576px) {
+    .topSection {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lightBg {
+    background-color: white;
+    color: black;
+}
+.darkBg {
+    background-color: black;
+    color: white;
+}

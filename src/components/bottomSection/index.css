@@ -1,0 +1,25 @@
+
+.bottom {
+    padding: 18px;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+.bottom.light p {
+    padding: 8px;
+    box-shadow: 8px 8px 18px gainsboro,-8px -8px 18px gainsboro;
+    border-radius: 4px;
+}
+.bottom.dark p {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #fdf;
+}
+.bottomHead {
+    padding-left: 18px;
+}
+@media screen and (max-width:576px) {
+    .bottom {
+        flex-direction: column;
+    }
+}

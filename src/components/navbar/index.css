@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    background-color: lightskyblue;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 18px 18px;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    gap: 18px;
+    margin-right: 18px;
+}
+.inputs select {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
