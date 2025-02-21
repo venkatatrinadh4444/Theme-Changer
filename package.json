@@ -1,4 +1,5 @@
 {
+  "homepage":"https://venkatatrinadh4444.github.io/Theme-Changer",
   "name": "todo-application",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@mui/icons-material": "^6.3.1",
     "@mui/material": "^6.3.1",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
@@ -15,6 +17,8 @@
     "uuid": "^11.0.5"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
