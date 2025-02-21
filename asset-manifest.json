@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Theme-Changer/static/css/main.560bf4c7.css",
+    "main.js": "/Theme-Changer/static/js/main.9f1499cb.js",
+    "index.html": "/Theme-Changer/index.html",
+    "main.560bf4c7.css.map": "/Theme-Changer/static/css/main.560bf4c7.css.map",
+    "main.9f1499cb.js.map": "/Theme-Changer/static/js/main.9f1499cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.560bf4c7.css",
+    "static/js/main.9f1499cb.js"
+  ]
+}
